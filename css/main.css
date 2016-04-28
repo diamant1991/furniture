@@ -1637,6 +1637,11 @@ img {
   margin-bottom: 30px;
   font-size: 50px;
   border-bottom: 1px solid #ba272d; }
+  .block-title__text {
+    font-size: 13px;
+    line-height: 1.4;
+    width: 540px;
+    margin-top: 25px; }
 
 .contacts {
   margin-bottom: 40px; }
@@ -1785,3 +1790,102 @@ img {
   font-size: 14px;
   color: #333;
   border-bottom: 1px solid #d8d8d8; }
+
+.complete-work {
+  margin-bottom: 30px; }
+
+.works {
+  margin-bottom: 120px; }
+  .works__img {
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover; }
+  .works__item {
+    padding-left: 20px;
+    padding-bottom: 20px; }
+  .works__wrapp {
+    margin-left: -20px;
+    margin-bottom: 30px; }
+
+.schema__item {
+  position: relative;
+  min-height: 35px;
+  margin-bottom: 40px; }
+
+.schema__step {
+  display: table;
+  width: 100%; }
+
+.schema__number {
+  display: table-cell;
+  vertical-align: middle;
+  width: 95px; }
+
+.schema__text {
+  line-height: 1.4;
+  font-size: 16px;
+  display: table-cell;
+  vertical-align: middle; }
+
+.schema__img {
+  text-align: center;
+  margin-top: 30px; }
+
+.number-block {
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  color: #fff;
+  margin: auto;
+  line-height: 35px;
+  text-align: center;
+  font-family: "ProximaNovaBold";
+  font-size: 18px;
+  background: -webkit-gradient(linear, left top, right top, from(#c0262c), to(#e31d25));
+  background: -webkit-linear-gradient(left, #c0262c 0%, #e31d25 100%);
+  background: -o-linear-gradient(left, #c0262c 0%, #e31d25 100%);
+  background: linear-gradient(90deg, #c0262c 0%, #e31d25 100%); }
+
+.partners {
+  margin-bottom: 65px; }
+  .partners__img {
+    height: 425px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover; }
+
+.back-block {
+  margin-bottom: 15px; }
+
+.back-link {
+  font-size: 15px;
+  color: #1a70be;
+  border-bottom: 1px solid #bfd1e8; }
+
+.blog-text {
+  line-height: 1.4;
+  font-size: 16px; }
+  .blog-text p {
+    margin-bottom: 15px; }
+  .blog-text__img {
+    height: 370px;
+    width: 370px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    margin-right: 45px;
+    margin-bottom: 20px; }
+  .blog-text__date {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #858585; }
+  .blog-text__name {
+    font-size: 28px;
+    color: #ba272d;
+    font-family: "ProximaNovaBold";
+    margin-bottom: 15px; }
+  .blog-text b {
+    font-family: "ProximaNovaBold"; }
