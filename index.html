@@ -37,7 +37,7 @@
   							<div class="top-tel__number">
   								+7 (495) 740 93-95
   							</div>
-  							<a href="#" class="get-call">Заказать звонок</a>
+  							<a href="#" class="get-call" data-toggle="modal" data-target="#get-call">Заказать звонок</a>
   						</div>
   					</div>
   				</div>
@@ -672,7 +672,7 @@
   					<div class="footer__contact">
   						<div class="footer__tel">
   							<span class="footer__number">+7 (495) 740 93-95</span>
-  							<a href="#" class="footer__get-call">заказать звонок</a>
+  							<a href="#" class="footer__get-call" data-toggle="modal" data-target="#get-call">заказать звонок</a>
   						</div>
   						<div class="footer__info">
   							<p>
@@ -708,6 +708,125 @@
   		</div>
   	</div>
   </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="get-call" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+            <img src="img/close.png" alt="">
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Оставить заявку</h4>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <fieldset class="application__fieldset">
+              <div class="application__block">
+                <input type="text" placeholder="Имя" class="application__input">
+              </div>
+              <div class="application__block">
+                <input type="text" placeholder="Контактный телефон" class="application__input">
+              </div>
+              <div class="application__block">
+                <textarea placeholder="Ваши пожелания" class="application__textarea"></textarea>
+              </div>
+              <div class="application__block">
+                <div class="box">
+                   <input type="file" name="file[]" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple="">
+                   <label for="file" class="label-file">
+                     Прикрепить файл
+                   </label>
+                   <span class="file-text"></span>
+                 </div>
+              </div>
+              <div class="application__block">
+                 <input type="submit" class="application__submit" value="Отправить заявку">
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="get-review" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+            <img src="img/close.png" alt="">
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Оставить отзыв</h4>
+        </div>
+        <div class="modal-body">
+          <form action="">
+            <fieldset class="application__fieldset">
+              <div class="application__block">
+                <input type="text" placeholder="Название компании" class="application__input">
+              </div>
+              <div class="application__block">
+                <input type="text" placeholder="Имя" class="application__input">
+              </div>
+              <div class="application__block">
+                <input type="text" placeholder="Контактный телефон" class="application__input">
+              </div>
+              <div class="application__block">
+                <textarea placeholder="Сообщение" class="application__textarea"></textarea>
+              </div>
+              <div class="application__block">
+                <div class="box">
+                   <input type="file" name="file[]" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple="">
+                   <label for="file" class="label-file">
+                     Прикрепить файл
+                   </label>
+                   <span class="file-text"></span>
+                 </div>
+              </div>
+              <div class="application__block">
+                 <input type="submit" class="application__submit" value="Отправить заявку">
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="thanks" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="thanks__content">
+        <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+          <img src="img/close.png" alt="">
+        </button>
+        <div class="thanks__text">
+          <div class="thanks__title">
+            СПАСИБО! <br>Ваш отзыв принят
+          </div>
+          <a href="#" class="thanks__ok" data-dismiss="modal" aria-label="Close">ок</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="thanks2" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="thanks__content">
+        <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+          <img src="img/close.png" alt="">
+        </button>
+        <div class="thanks__text">
+          <div class="thanks__title">
+            СПАСИБО! <br>Ваша заявка принята
+          </div>
+          <div class="thanks__info">
+            Наш менеджер свяжется с вами в течение 5 минут
+          </div>
+          <a href="#" class="thanks__ok" data-dismiss="modal" aria-label="Close">ок</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 <script src="js/vendor.js"></script>
