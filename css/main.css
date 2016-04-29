@@ -2158,3 +2158,19 @@ img {
   font-size: 14px;
   position: relative;
   top: -30px; }
+
+.mobile-header__top {
+  background: #ba272d;
+  color: #fff;
+  padding: 0 15px;
+  font-size: 13px;
+  line-height: 22px; }
+
+.mobile-header__tel {
+  font-family: "ProximaNovaBoldIt";
+  float: left; }
+
+.mobile-header__time {
+  float: right; }
+  .mobile-header__time span {
+    color: #e4a7a9; }
