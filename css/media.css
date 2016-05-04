@@ -20,6 +20,20 @@
     font-size: 200px; }
   .cat-info-block {
     margin: 0 5px; }
+  .contacts__tel,
+  .contacts__adress,
+  .contacts__info {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+    padding-left: 0;
+    text-align: left; }
+    .contacts__tel:after,
+    .contacts__adress:after,
+    .contacts__info:after {
+      content: none; }
+  .contacts__text {
+    padding-top: 0; }
   .not-found {
     height: 700px; }
   .top-tel {
@@ -70,8 +84,14 @@
   .inner-banner {
     margin-top: 0;
     padding-top: 30px; }
+  .text-container {
+    margin-bottom: 10px; }
+    .text-container img {
+      display: none; }
   .inner-title {
     font-size: 32px; }
+  .contacts {
+    margin-bottom: 10px; }
   .inner-text {
     width: 100%; }
   .catalog__descr {
