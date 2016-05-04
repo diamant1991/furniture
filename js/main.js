@@ -1,1 +1,42 @@
-"use strict";!function(t,e,n,i){t(".inputfile").each(function(){var e=t(this),n=e.next("label"),i=n.html();e.on("change",function(t){var e="";this.files&&this.files.length>1?e=(this.getAttribute("data-multiple-caption")||"").replace("{count}",this.files.length):t.target.value&&(e=t.target.value.split("\\").pop()),e?n.next().html(e):n.html(i)}),e.on("focus",function(){e.addClass("has-focus")}).on("blur",function(){e.removeClass("has-focus")})})}(jQuery,window,document);
+'use strict';
+
+;( function( $, window, document, undefined )
+{
+	$( '.inputfile' ).each( function()
+	{
+		var $input	 = $( this ),
+			$label	 = $input.next( 'label' ),
+			labelVal = $label.html();
+
+		$input.on( 'change', function( e )
+		{
+			var fileName = '';
+
+			if( this.files && this.files.length > 1 )
+				fileName = ( this.getAttribute( 'data-multiple-caption' ) || '' ).replace( '{count}', this.files.length );
+			else if( e.target.value )
+				fileName = e.target.value.split( '\\' ).pop();
+
+			if( fileName )
+				$label.next().html( fileName );
+			else
+				$label.html( labelVal );
+		});
+
+		// Firefox bug fix
+		$input
+		.on( 'focus', function(){ $input.addClass( 'has-focus' ); })
+		.on( 'blur', function(){ $input.removeClass( 'has-focus' ); });
+	});
+})( jQuery, window, document );
+
+$(function() {
+	$('.toggle-menu').click(function(e) {
+		e.preventDefault();
+		var more = $('#more');
+		if(more.is(':hidden'))
+			more.slideDown(350)
+		else
+			more.slideUp(350)
+	});
+});

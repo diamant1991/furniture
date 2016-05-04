@@ -2171,6 +2171,68 @@ img {
   float: left; }
 
 .mobile-header__time {
-  float: right; }
+  float: right;
+  font-size: 10px; }
   .mobile-header__time span {
     color: #e4a7a9; }
+
+.mobile-header__info {
+  padding: 0 25px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ececec; }
+
+.mobile-header__logo {
+  float: right; }
+  .mobile-header__logo span {
+    display: inline-block;
+    vertical-align: middle; }
+
+.mobile-header__text {
+  font-family: "ProximaNovaBold";
+  color: #ba272d;
+  font-size: 24px;
+  margin-left: 5px; }
+
+.mobile-header__menu {
+  text-align: center;
+  font-size: 15px; }
+  .mobile-header__menu a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#c94248), to(#bd292f));
+    background: -webkit-linear-gradient(top, #c94248 0%, #bd292f 100%);
+    background: -o-linear-gradient(top, #c94248 0%, #bd292f 100%);
+    background: linear-gradient(180deg, #c94248 0%, #bd292f 100%); }
+
+.mobile-header__catalog {
+  text-align: center;
+  font-size: 14px; }
+  .mobile-header__catalog a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    color: #a1a1a1;
+    border-bottom: 1px solid #ececec; }
+
+.mobile-header__more {
+  display: none; }
+
+.small-logo-text {
+  font-size: 12px;
+  padding-left: 45px;
+  color: #333; }
+
+.toggle-menu {
+  display: block;
+  float: left;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  width: 20px;
+  position: relative;
+  top: 15px;
+  height: 17px;
+  background: url(../img/toggle-menu.png) no-repeat; }
