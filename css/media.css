@@ -18,6 +18,8 @@
     text-align: center; }
   .not-found__title {
     font-size: 200px; }
+  .works__img {
+    height: 235px; }
   .cat-info-block {
     margin: 0 5px; }
   .contacts__tel,
@@ -32,6 +34,8 @@
     .contacts__adress:after,
     .contacts__info:after {
       content: none; }
+  .partners__img {
+    margin-bottom: 20px; }
   .contacts__text {
     padding-top: 0; }
   .not-found {
@@ -88,6 +92,18 @@
     margin-bottom: 10px; }
     .text-container img {
       display: none; }
+  .works {
+    margin-bottom: 80px; }
+  .partners__img {
+    height: 350px; }
+  .schema__number {
+    vertical-align: top;
+    width: 50px; }
+  .number-block {
+    width: 30px;
+    height: 30px;
+    font-size: 13.5px;
+    line-height: 30px; }
   .inner-title {
     font-size: 32px; }
   .contacts {
@@ -163,8 +179,8 @@
     margin: 0;
     margin-bottom: 20px; }
   .breadcrumb-black {
-    margin-bottom: 25px;
-    margin-top: 20px; }
+    margin-bottom: 10px;
+    margin-top: 15px; }
     .breadcrumb-black li {
       margin-bottom: 5px; }
   .main-form__item {
@@ -315,4 +331,16 @@
   .footer__copyright {
     margin-bottom: 20px; }
   .about__wrapp {
-    padding-top: 70px; } }
+    padding-top: 70px; }
+  .give-feedback {
+    position: relative;
+    bottom: 0;
+    margin: auto; }
+  .block-title__text {
+    width: 100%;
+    margin-top: 15px; } }
+
+@media (max-width: 450px) {
+  .modal-dialog {
+    width: 95%;
+    margin: 20px auto; } }
