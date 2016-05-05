@@ -2236,3 +2236,31 @@ img {
   top: 15px;
   height: 17px;
   background: url(../img/toggle-menu.png) no-repeat; }
+
+.mobile-info {
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px; }
+  .mobile-info__item {
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 20px; }
+  .mobile-info__img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5; }
+  .mobile-info__title {
+    font-size: 16px;
+    margin-bottom: 10px; }
+  .mobile-info__text {
+    font-size: 12px; }
+  .mobile-info__descr {
+    padding-top: 10px;
+    line-height: 1.3; }
