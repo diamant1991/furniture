@@ -2264,3 +2264,6 @@ img {
   .mobile-info__descr {
     padding-top: 10px;
     line-height: 1.3; }
+
+input.error {
+  border: 1px solid red !important; }
