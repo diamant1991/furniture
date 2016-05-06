@@ -1506,6 +1506,9 @@ img {
       vertical-align: middle;
       font-size: 12px;
       margin-right: 5px; }
+    .footer__social a {
+      width: 21px;
+      height: 21px; }
   .footer__develop {
     font-size: 11px;
     font-family: "ProximaNovaBold"; }
@@ -2267,3 +2270,27 @@ img {
 
 input.error {
   border: 1px solid red !important; }
+
+.vk-icon {
+  background: url(../img/vk.png) no-repeat; }
+
+.vk-icon:hover {
+  background: url(../img/vk-active.png) no-repeat; }
+
+.facebook-icon {
+  background: url(../img/facebook.png) no-repeat; }
+
+.facebook-icon:hover {
+  background: url(../img/facebook-active.png) no-repeat; }
+
+.twitter-icon {
+  background: url(../img/twitter.png) no-repeat; }
+
+.twitter-icon:hover {
+  background: url(../img/twitter-active.png) no-repeat; }
+
+.instagram-icon {
+  background: url(../img/instagram.png) no-repeat; }
+
+.instagram-icon:hover {
+  background: url(../img/instagram-active.png) no-repeat; }
