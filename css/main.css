@@ -2350,3 +2350,22 @@ input.error {
     margin-bottom: 10px; }
   .result__content {
     counter-reset: list1; }
+
+.sitemap {
+  padding-bottom: 200px;
+  color: #333; }
+  .sitemap__title {
+    font-size: 24px;
+    margin-bottom: 25px; }
+  .sitemap__item {
+    margin-bottom: 55px; }
+    .sitemap__item ul {
+      float: left;
+      width: 280px;
+      font-size: 15px;
+      line-height: 1.3; }
+    .sitemap__item a {
+      color: #1a70be;
+      border-bottom: 1px solid #bfd1e7; }
+    .sitemap__item li {
+      margin-bottom: 15px; }
