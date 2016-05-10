@@ -2294,3 +2294,59 @@ input.error {
 
 .instagram-icon:hover {
   background: url(../img/instagram-active.png) no-repeat; }
+
+.result {
+  padding-bottom: 200px; }
+  .result__form {
+    position: relative;
+    margin-bottom: 30px; }
+  .result__input {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding-left: 45px;
+    outline: 0;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: "ProximaNovaReg";
+    color: #333; }
+  .result__submit {
+    display: block;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: url(../img/footer-search.png) no-repeat;
+    width: 18px;
+    height: 17px;
+    position: absolute;
+    z-index: 2;
+    left: 16px;
+    top: 14px; }
+  .result__item {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 25px; }
+    .result__item:before {
+      counter-increment: list1;
+      content: counter(list1) ". ";
+      position: absolute;
+      z-index: 2;
+      left: 0;
+      top: 1px;
+      font-family: "ProximaNovaReg";
+      font-size: 16px;
+      color: #333; }
+  .result__link {
+    font-family: "ProximaNovaBold";
+    color: #1a70be;
+    font-size: 16px;
+    border-bottom: 1px solid #bfd1e7;
+    display: inline-block;
+    margin-bottom: 10px; }
+  .result__content {
+    counter-reset: list1; }
