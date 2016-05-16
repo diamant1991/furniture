@@ -165,8 +165,7 @@
     font-size: 30px;
     margin-bottom: 15px;
     padding-bottom: 15px; }
-  .product__img,
-  .gallery__item {
+  .product__img {
     height: 210px; }
   .shares__item {
     padding-bottom: 15px; }

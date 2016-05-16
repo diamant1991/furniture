@@ -1628,10 +1628,7 @@ img {
   .gallery .item-title {
     margin-bottom: 40px; }
   .gallery__item {
-    height: 330px;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover; }
+    text-align: center; }
 
 .advantages-inner {
   padding-bottom: 50px; }
