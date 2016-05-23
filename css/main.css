@@ -1586,6 +1586,11 @@ img {
       position: relative;
       z-index: 2;
       left: -95px; }
+  .catalog__get {
+    font-family: Tahoma,sans-serif;
+    font-size: 14px;
+    color: #6f6f6f;
+    margin-bottom: 10px; }
   .catalog__text {
     font-family: Tahoma,sans-serif;
     font-size: 14px;
